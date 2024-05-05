@@ -1,0 +1,99 @@
+/**
+ * Ryan Wong
+ * Date: April 2024
+ *
+ * This is the css file that formats both page on my personal wesbite. This is
+ * factored out styles that fit for both html pages. 
+ */
+
+header {
+  background-color: #333;
+  position: fixed;
+  z-index: 10;
+}
+ul {
+  list-style-type: none;
+}
+
+ul,
+h3 {
+  margin: 0;
+}
+
+header ul li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.hero {
+  /* width: 100vw; */
+  height: 100vh;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+a,
+h1 {
+  color: white;
+}
+
+#about-me {
+  font-size: 1.5em;
+  width: 900px;
+  margin-top: 10px;
+}
+
+h1,
+h2,
+#about-me,
+a {
+  text-align: center;
+}
+
+.hero,
+header ul {
+  justify-content: center;
+}
+h2 {
+  font-size: 2.5em;
+}
+
+img,
+main > p {
+  border-radius: 8px;
+}
+.hero,
+header ul,
+section {
+  display: flex;
+}
+
+section {
+  margin: auto;
+}
+
+p,
+img,
+section {
+  margin-bottom: 15px;
+}
+
+.experience-content,
+header {
+  width: 100%;
+}
+body {
+  font-family: 'Sedan', serif;
+}

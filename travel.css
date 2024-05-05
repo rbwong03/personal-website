@@ -1,0 +1,122 @@
+/**
+ * Ryan Wong
+ * Date: April 2024
+ *
+ * This is the css file that formats the travel page on my personal wesbite.
+ */
+
+.hero {
+  /* This image was taken by Ryan Wong */
+  background-image: url('./images/travel-hero.png');
+}
+
+img,
+.carousel {
+  width: 800px;
+}
+img {
+  height: auto;
+}
+
+h3 {
+  padding: 0;
+  font-size: 1.5em;
+}
+main {
+  min-height: 50vh;
+  height: max-content;
+}
+
+aside,
+#rec-input,
+.travel-instance,
+main > section {
+  flex-direction: column;
+}
+
+main > section,
+aside,
+#rec-input {
+  align-items: center;
+}
+
+.travel-instance {
+  max-width: 800px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+html,
+body,
+aside {
+  height: 100%;
+}
+
+aside,
+button {
+  color: white;
+}
+
+aside {
+  background-color: #333;
+  min-width: 200px;
+  flex: 1;
+  padding-top: 33px;
+  height: 100vh;
+  position: sticky;
+  top: 46.5px;
+  z-index: 1;
+}
+
+section {
+  flex: 3;
+}
+aside,
+aside > ul > li,
+main,
+.carousel-images,
+#rec-input {
+  display: flex;
+}
+
+aside > ul > li,
+main {
+  justify-content: space-between;
+}
+
+aside > ul {
+  padding: 0px;
+  width: 90%;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-images {
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 25px;
+}
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
